@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ProductImage extends Model
+{
+    protected $table = 'product_images';
+
+    protected $fillable = [
+        'product_id', 'user_id','product_image','product_image_name','created_at','updated_at'
+    ];
+
+}
